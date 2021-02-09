@@ -1,0 +1,35 @@
+.container{
+    border: 3px solid black;
+    width: 650px;
+    margin: auto;
+    padding: 20px;
+}
+
+label{
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.input{
+    width: 100%;
+    margin-top: 8px;
+    padding: 7px;
+    border-radius: 10px ;
+    outline: none ;
+transition: all 5s;
+}
+    .input:hover{
+        background-color: blueviolet;
+    
+    }
+    
+.input:focus{
+    background-color: blueviolet;
+        
+
+}
+body{
+    background-image: url(ppi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
